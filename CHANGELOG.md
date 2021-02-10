@@ -12,6 +12,7 @@
  - Added `Image` extensions
  - Added `Color` extensions
  - Change RaisedButton to ElevatedButton in timer example
+ - Added a collision detection system and geometrical shapes
 
 ## 1.0.0-rc6
  - Use `Offset` type directly in `JoystickAction.update` calculations
