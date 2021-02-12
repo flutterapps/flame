@@ -12,6 +12,7 @@
  - Added `Image` extensions
  - Added `Color` extensions
  - Change RaisedButton to ElevatedButton in timer example
+ - Preventing errors caused by the premature use of size property on game
 
 ## 1.0.0-rc6
  - Use `Offset` type directly in `JoystickAction.update` calculations

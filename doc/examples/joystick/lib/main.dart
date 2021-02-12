@@ -42,7 +42,8 @@ class MyGame extends BaseGame with MultiTouchDragDetector {
     ],
   );
 
-  MyGame() {
+  @override
+  Future<void> onLoad() async {
     joystick.addObserver(player);
     add(player);
     add(joystick);
